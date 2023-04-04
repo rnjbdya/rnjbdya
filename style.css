@@ -2,6 +2,9 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
+	background-image: url("https://github.com/rnjbdya/rnjbdya/blob/main/files/Busan_Haeundae.jpg");
+  	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 header {
