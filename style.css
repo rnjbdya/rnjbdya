@@ -1,6 +1,6 @@
 body {
 	font-family: Josefin Sans, sans-serif;
-	color: #B6E1E7;
+	color: #0A224E;
 	background-color: #FAE7A5;
 	margin: 0;
 	padding: 0;
@@ -11,7 +11,7 @@ body {
 
 header {
 	background-color: #F9B872;
-	color: #B6E1E7;
+	color: #0A224E;
 	padding: 10px;
 }
 
@@ -27,7 +27,7 @@ nav li {
 }
 
 nav a {
-	color: #B6E1E7;
+	color: #0A224E;
 	text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ section {
 
 footer {
 	background-color: #F9B872;
-	color: #B6E1E7;
+	color: #0A224E;
 	padding: 10px;
 	text-align: center;
 }
