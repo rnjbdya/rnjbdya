@@ -2,10 +2,6 @@ body {
 	font-family: Josefin Sans, sans-serif;
 	color: #B6E1E7;
 	background-color: #FAE7A5;
-	display: flex;
-	justify-content: center;
-  	align-items: center;
-  	min-height: 100vh;
 	margin: 0;
 	padding: 0;
 	
@@ -36,7 +32,8 @@ nav a {
 }
 
 main {
-	margin: 20px;
+	margin: 0 auto;
+	max-width: 960px;
 }
 
 section {
