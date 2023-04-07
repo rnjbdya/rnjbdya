@@ -1,7 +1,7 @@
 body {
 	font-family: Josefin Sans, sans-serif;
-	color: #333333;
-	background-color: #FAE7A5;
+	color: #DF744A;
+	background-color: #FEDCD2;
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -12,8 +12,8 @@ body {
 
 
 header {
-	background-color: #F9B872;
-	color: #333333;
+	background-color: #BFD8D2;
+	color: #DF744A;
 	padding: 10px;
 }
 
@@ -29,7 +29,7 @@ nav li {
 }
 
 nav a {
-	color: #333333;
+	color: #DF744A;
 	text-decoration: none;
 }
 
@@ -45,8 +45,8 @@ section {
 
 
 footer {
-	background-color: #F9B872;
-	color: #333333;
+	background-color: #BFD8D2;
+	color: #DF744A;
 	padding: 10px;
 	text-align: center;
 	flex-shrink: 0;
