@@ -9,7 +9,7 @@ body {
 
 header {
 	background-color: #F9B872;
-	color: #FAE7A5;
+	color: #B6E1E7;
 	padding: 10px;
 }
 
@@ -25,7 +25,7 @@ nav li {
 }
 
 nav a {
-	color: #fff;
+	color: #B6E1E7;
 	text-decoration: none;
 }
 
@@ -39,8 +39,8 @@ section {
 
 
 footer {
-	background-color: #333;
-	color: #fff;
+	background-color: #F9B872;
+	color: #B6E1E7;
 	padding: 10px;
 	text-align: center;
 }
