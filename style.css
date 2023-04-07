@@ -33,6 +33,16 @@ nav a {
 	text-decoration: none;
 }
 
+aside {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+aside img {
+  max-width: 100%;
+  display: block;
+}
+
 main {
 	margin: 0 auto;
 	max-width: 960px;
