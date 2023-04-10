@@ -1,10 +1,11 @@
-const form = document.querySelector('form');
-
-form.addEventListener('submit', (event) => {
-	event.preventDefault();
-	const name = document.getElementById('name').value;
-	const email = document.getElementById('email').value;
-	const message = document.getElementById('message').value;
-
-	alert(`Thank you for your message, ${name}! We will respond to your email (${email}) as soon as possible. Your message was: "${message}"`);
+$(document).ready(function () {
+    $('a[href^="#"]').on('click', function (event) {
+        var target = $(this.getAttribute('href'));
+        if (target.length) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 1000);
+        }
+    });
 });
