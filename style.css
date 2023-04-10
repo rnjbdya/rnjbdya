@@ -11,6 +11,9 @@ body {
 
 header {
 	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 	font-family: 'Fjalla One', sans-serif;
 	background-color: #BFD8D2;
 	color: #333;
@@ -107,6 +110,9 @@ section {
 
 footer {
 	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 	background-color: #BFD8D2;
 	color: #333;
 	padding: 20px;
