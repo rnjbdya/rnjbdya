@@ -20,6 +20,7 @@ header {
 	color: #333;
 	padding: 20px;
 	height: 120px;
+	z-index: 9999;
 }
 
 nav ul {
