@@ -1,7 +1,8 @@
 body {
-  	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Fjalla One', sans-serif;
 	color: #333;
 	background-color: #FEDCD2;
+	padding-top: 80px;
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -18,6 +19,7 @@ header {
 	background-color: #BFD8D2;
 	color: #333;
 	padding: 20px;
+	height: 80px;
 }
 
 nav ul {
