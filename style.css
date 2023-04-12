@@ -57,6 +57,7 @@ aside {
 }
 
 	aside img {
+		margin-top: 120px;
 		max-width: 100%;
 		display: block;
 	}
