@@ -1,13 +1,22 @@
+/* Apply a CSS reset to remove default browser styling */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Fjalla One', sans-serif;
 	color: #333;
 	background-color: #FEDCD2;
+	/* Add a margin to separate the content from the edge of the screen */
+	margin: 20px;
+	/* Remove the duplicated padding */
 	padding-top: 130px;
-	margin: 0;
-	padding: 0;
+	/* Use flexbox to create a sticky footer */
 	display: flex;
 	flex-direction: column;
-	min-height: 100%;
+	min-height: 100vh;
 }
 
 header {
@@ -19,7 +28,8 @@ header {
 	background-color: #BFD8D2;
 	color: #333;
 	padding: 20px;
-	height: 120px;
+	/* Use a flexible height to accommodate different content */
+	height: auto;
 	z-index: 9999;
 	opacity: 1;
 }
@@ -52,12 +62,12 @@ nav a {
 }
 
 aside {
-	flex: 0 0 auto;
-	margin-right: 20px;
+	/* Use a flexible width instead of a fixed margin */
+	flex: 1 0 200px;
 }
 
 	aside img {
-		margin-top: 120px;
+		/* Remove the fixed margin-top to allow flexible positioning */
 		max-width: 100%;
 		display: block;
 	}
@@ -65,16 +75,18 @@ aside {
 main {
 	font-family: 'Fjalla One', sans-serif;
 	flex: 1 1 auto;
+	/* Use a flexible width instead of a fixed max-width */
+	width: 100%;
+	/* Remove the fixed margin-top and margin-bottom to allow flexible positioning */
 	margin: 0 auto;
-	max-width: 960px;
 	text-align: justify;
-	margin-top: 120px; 
-	margin-bottom: 120px; 
 }
 
 	main section {
-		flex-basis: calc(50% - 20px);
-		margin: 0 20px 20px 0;
+		/* Use a flexible width instead of a fixed flex-basis */
+		flex: 1 0 calc(50% - 20px);
+		margin-right: 20px;
+		margin-bottom: 20px;
 	}
 
 	main h2 {
@@ -83,18 +95,7 @@ main {
 		margin-top: 40px;
 	}
 
-	main p {
-		font-size: 18px;
-		color: #333;
-		line-height: 1.5;
-	}
-
-	main ul {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
-
+	main p,
 	main li {
 		font-size: 18px;
 		color: #333;
@@ -108,7 +109,8 @@ main {
 	}
 
 section {
-	height: 100vh;
+	/* Use a flexible height instead of a fixed height */
+	height: auto;
 	width: 100%;
 	position: relative;
 	top: 0;
@@ -125,8 +127,8 @@ footer {
 	color: #333;
 	padding: 20px;
 	text-align: center;
+	/* Use flex-shrink to prevent the footer from expanding */
 	flex-shrink: 0;
-	margin-top: auto;
 }
 
 	footer ul {
@@ -140,13 +142,3 @@ footer {
 	footer li {
 		margin-right: 20px;
 	}
-
-	footer a {
-		text-decoration: none;
-		color: #333;
-		font-size: 18px;
-	}
-
-		footer a:hover {
-			color: #333;
-		}
