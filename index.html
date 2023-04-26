@@ -7,36 +7,63 @@
 	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 
 </head>
-<body>
-	<header>
-		<h1>Ranjai Baidya</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href=files/Resume.pdf>Resume</a></li>
-				<li><a href="#publications">Publications</a></li>
-				<li><a href="#">Gallery</a></li>
-			</ul>
-		</nav>
-	</header>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+					Menu <i class="fa fa-bars"></i>
+				</button>
+				<a class="navbar-brand page-scroll" href="#page-top">
+					<span class="light">Ranjai Baidya</span>
+				</a>
+			</div>
 
-	<div class="container">
-		<aside>
-			<img src=files/ranjai.jpg alt="Ranjai's Picture" height=266 width=200>
-		</aside>
-		<main>
-			<section id="about">
-				<h2>About Me</h2>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+				<ul class="nav navbar-nav">
+					<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+					<li class="hidden">
+						<a href="#page-top"></a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#about">About</a>
+					</li>
+					<li>
+						<a href="files/Resume.pdf">Resume</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="#papers">Publications</a>
+					</li>
+					<li>
+						<a href="#">Gallery</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
+
+
+	<!-- About Section -->
+	<section id="about" class="container content-section text-center">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h2>Hello there.</h2>
+
+				<img src="files/Ranjai-cherry_blossom.jpg" max-height="300" width="300" alt="Ranjai enjoying cherry blossoms in Jinhae, Korea" hspace="20" vspace="20">
+				<br><br><br>
+
 				<p>
-					I am a researcher with major interest in computer vision and multivariate time series forecasting. Currently I am
+					I am a researcher with interest in computer vision and time series forecasting. Currently I am
 					exploring methods to integrate computer vision technologies into autonomoous drones.
 				</p>
 
 				<p>
-					My present workplace is a drone manufacturing company, where I am a Researcher/Developer. The project I am working on
-					right now is a large drone capable of carrying large payload and the total exceeding 100 Kgs. I am working on the
-					software side of the project, specifically on its the precision landing and obstacle avoidance during the landing.
+					My present workplace is a drone manufacturing company, where I am a Researcher/Developer.
+					I am currently working on the precision landing and obstacle avoidance (during the landing) of a large drone
+					capable of carrying a large payload (total exceeding a total of 100 Kgs).
 				</p>
 
 				<p>
@@ -53,40 +80,79 @@
 					Series forecasting. While my thesis (as I mentioned previously) was on multi-variate time series forecasting, I also worked
 					on other computer vision projects including a project for Golf ball tracking.
 				</p>
-			</section>
+			</div>
+		</div>
+	</section>
 
-			<section id="publications">
-				<h2>Publications</h2>
-				<li>
+	<!-- Publications Section -->
+	<section id="papers" class="container content-section text-center">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h2>Under Review</h2>
+				<div>
+					<a target="_blank">Addressing the Non-stationarity and Complexity of Time Series Data for Long Term Forecasts</a>
+					<br>
+					<b>Ranjai Baidya</b>, Hyuncheol Park, Sang-Woong Lee
+					<br>
+					IEEE Transactions on Knowledge and Data Engineering
+				</div>
+				<div>
+					<a target="_blank">Simulation and Real-Life Implementation of PID Based Precision Landing System with Obstacle Avoidance for UAVs using YOLOv5</a>
+					<br>
+					<b>Ranjai Baidya</b>, Heon Jeong
+					<br>
+					Computer Systems Science and Engineering
+				</div>
+				<h2>Select Publications</h2>
+				<div>
 					<a href="https://www.mdpi.com/1424-8220/22/21/8424" target="_blank">YOLOv5 with ConvMixer Prediction Heads for Precise Object Detection in Drone Imagery</a>
 					<br>
 					<b>Ranjai Baidya</b>, Heon Jeong
 					<br>
 					Sensors 22 (21), 8424
-				</li>
+				</div>
 
-				<li>
+				<div>
 					<a href="https://ieeexplore.ieee.org/abstract/document/9077429" target="_blank">Securing Blackhole Attacks in MANETs using Modified Sequence Number in AODV Routing Protocol</a>
 					<br>
 					Sijan Shrestha, <b>Ranjai Baidya</b>, Bivek Giri, Anup Thapa
 					<br>
 					2020 8th International Electrical Engineering Congress (iEECON), 1-4
-				</li>
-			</section>
-		</main>
-	</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-	<footer>
-		<nav>
-			<ul>
-				<li><a href="https://scholar.google.com/citations?user=SV8wOvcAAAAJ&hl=en" target="_blank"><ion-icon name="school-outline"></ion-icon></i></a></li>
-				<li><a href="https://www.linkedin.com/in/ranjai-baidya-785186179/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-				<li><a href="https://github.com/rnjbdya" target="_blank"><ion-icon name="logo-github"></ion-icon></i></a></li>
-				<li><a href="https://www.instagram.com/ranjai_baidya/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
-				<li><a href="https://twitter.com/ranjai_baidya" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
-			</ul>
-		</nav>
-	</footer>
+
+	<!-- Links Section -->
+	<section id="links" class="container content-section text-center">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<ul class="list-inline banner-social-buttons">
+					<li>
+						<a href="mailto:ranjai123baidya@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
+					</li>
+					<li>
+						<a href="https://scholar.google.com/citations?user=SV8wOvcAAAAJ&hl=en" target="_blank"><ion-icon name="school-outline"></ion-icon></i></a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/ranjai-baidya-785186179/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+					</li>
+					<li>
+						<a href="https://github.com/rnjbdya" target="_blank"><ion-icon name="logo-github"></ion-icon></i></a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/ranjai_baidya/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/ranjai_baidya" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+
 	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 	<script type="text/javascript" src="script.js"></script>
