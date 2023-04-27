@@ -1,163 +1,158 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="Ranjai" content="" />
 	<title>Ranjai's Personal Website</title>
-
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
-
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link href="css/styles.css" rel="stylesheet" />
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+<body>
+	<!-- Responsive navbar-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-					Menu <i class="fa fa-bars"></i>
-				</button>
-				<a class="navbar-brand page-scroll" href="#page-top">
-					<span class="light">Ranjai Baidya</span>
-				</a>
-			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-				<ul class="nav navbar-nav">
-					<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-					<li class="hidden">
-						<a href="#page-top"></a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#about">About</a>
-					</li>
-					<li>
-						<a href="files/Resume.pdf">Resume</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#papers">Publications</a>
-					</li>
-					<li>
-						<a href="#">Gallery</a>
-					</li>
+			<a class="navbar-brand" href="#!">Ranjai Baidya</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+					<li class="nav-item"><a class="nav-link" href="#publications">Resume</a></li>
 				</ul>
 			</div>
-			<!-- /.navbar-collapse -->
 		</div>
-		<!-- /.container -->
 	</nav>
-
-
-	<!-- About Section -->
-	<section id="about" class="container content-section text-center">
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-				<h2>Hello there.</h2>
-
-				<img src="files/Ranjai-cherry_blossom.jpg" max-height="300" width="300" alt="Ranjai enjoying cherry blossoms in Jinhae, Korea" hspace="20" vspace="20">
-				<br><br><br>
-
-				<p>
-					I am a researcher with interest in computer vision and time series forecasting. Currently I am
-					exploring methods to integrate computer vision technologies into autonomoous drones.
-				</p>
-
-				<p>
-					My present workplace is a drone manufacturing company, where I am a Researcher/Developer.
-					I am currently working on the precision landing and obstacle avoidance (during the landing) of a large drone
-					capable of carrying a large payload (total exceeding a total of 100 Kgs).
-				</p>
-
-				<p>
-					I graduated with a Masters Degree from the Department of AI Software, Gachon University. My masters thesis, supervised
-					by Prof. Sang-Woong Lee, was on the topic <a href="http://gachon.dcollection.net/srch/srchDetail/200000630419?localeParam=en" target="_blank">
-						'Long Sequence Time Series Forecasting Using Spectral ConvMixer Alongside
-						Weak-stationarizing and Non-stationarity Restoring Blocks'
-					</a>
-				</p>
-
-				<p>
-					During my time at Gachon University, I was a Research Assistant at  <a href="http://pr.gachon.ac.kr/" target="_blank">Pattern Recognition and Machine Learning Lab</a> under the
-					supervision of <a href="http://pr.gachon.ac.kr/professor.html" target="_blank">Prof. Sang-Woong Lee</a>. There I was allowed to explore the fields of Computer Vision and Multivariate Time
-					Series forecasting. While my thesis (as I mentioned previously) was on multi-variate time series forecasting, I also worked
-					on other computer vision projects including a project for Golf ball tracking.
-				</p>
+	<!-- Header - set the background image for the header in the line below-->
+	<header class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
+		<div class="text-center my-5">
+			<img class="img-fluid mb-4" src="files/Ranjai-cherry_blossom.jpg" alt="Ranjai enjoying cherry blossoms in S. Korea" />
+			<h1 class="text-white fs-3 fw-bolder">Full Width Pics</h1>
+			<p class="text-white-50 mb-0">Landing Page Template</p>
+		</div>
+	</header>
+	<!-- About section-->
+	<section id="about" class="py-5">
+		<div class="container my-5">
+			<div class="row justify-content-center">
+				<div class="col-lg-6">
+					<h2>Hello there!</h2>
+					<p class="lead">
+						I am a researcher with interest in computer vision and time series forecasting. Currently I am exploring methods to integrate computer vision
+						technologies into autonomous drones.
+					</p>
+					<p class="lead">
+						I graduated with a Masters Degree from the Department of AI Software, Gachon University. My masters thesis, supervised
+						by Prof. Sang-Woong Lee, was on the topic <a href="http://gachon.dcollection.net/srch/srchDetail/200000630419?localeParam=en" target="_blank">
+							'Long Sequence Time Series Forecasting Using Spectral ConvMixer Alongside
+							Weak-stationarizing and Non-stationarity Restoring Blocks'
+						</a>
+					</p>
+					<p class="lead">
+						During my time at Gachon University, I was a Research Assistant at  <a href="http://pr.gachon.ac.kr/" target="_blank">Pattern Recognition and Machine Learning Lab</a> under the
+						supervision of <a href="http://pr.gachon.ac.kr/professor.html" target="_blank">Prof. Sang-Woong Lee</a>. There I was allowed to explore the fields of Computer Vision and Multivariate Time
+						Series forecasting. While my thesis (as I mentioned previously) was on multi-variate time series forecasting, I also worked
+						on other computer vision projects including a project for Golf ball tracking.
+					</p>
+					<!--  <p class="mb-0">The universe is almost 14 billion years old, and, wow! Life had no problem starting here on Earth! I think it would be inexcusably egocentric of us to suggest that we're alone in the universe.</p> -->
+				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Publications Section -->
-	<section id="papers" class="container content-section text-center">
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-				<h2>Under Review</h2>
-				<div>
-					<a target="_blank">Addressing the Non-stationarity and Complexity of Time Series Data for Long Term Forecasts</a>
-					<br>
-					<b>Ranjai Baidya</b>, Hyuncheol Park, Sang-Woong Lee
-					<br>
-					<abbr title="Institue of Electrical and Electronics Engineers">IEEE</abbr> Transactions on Knowledge and Data Engineering
-				</div>
-				<div>
-					<a target="_blank">Simulation and Real-Life Implementation of PID Based Precision Landing System with Obstacle Avoidance for UAVs using YOLOv5</a>
-					<br>
-					<b>Ranjai Baidya</b>, Heon Jeong
-					<br>
-					Computer Systems Science and Engineering Journal
-				</div>
-				<h2>Select Publications</h2>
-				<div>
-					<a href="https://www.mdpi.com/1424-8220/22/21/8424" target="_blank">YOLOv5 with ConvMixer Prediction Heads for Precise Object Detection in Drone Imagery</a>
-					<br>
-					<b>Ranjai Baidya</b>, Heon Jeong
-					<br>
-					Sensors 22 (21), 8424
-				</div>
-
-				<div>
-					<a href="https://ieeexplore.ieee.org/abstract/document/9077429" target="_blank">Securing Blackhole Attacks in MANETs using Modified Sequence Number in AODV Routing Protocol</a>
-					<br>
-					Sijan Shrestha, <b>Ranjai Baidya</b>, Bivek Giri, Anup Thapa
-					<br>
-					2020 8th International Electrical Engineering Congress (iEECON), 1-4
+	<section id="publications" class="py-5">
+		<div class="container my-5">
+			<div class="row justify-content-center">
+				<div class="col-lg-6">
+					<h2>Publications</h2>
+					<h3>Under Review</h3>
+					<div>
+						<p class="lead">
+							<a target="_blank">Addressing the Non-stationarity and Complexity of Time Series Data for Long Term Forecasts</a>
+						</p>
+						<p class="mb-0">
+							<b>Ranjai Baidya</b>, Hyuncheol Park, Sang-Woong Lee
+							<br />
+							<abbr title="Institue of Electrical and Electronics Engineers">IEEE</abbr> Transactions on Knowledge and Data Engineering
+						</p>
+					</div>
+					<div>
+						<p class="lead">
+							<a target="_blank">Simulation and Real-Life Implementation of PID Based Precision Landing System with Obstacle Avoidance for UAVs using YOLOv5</a>
+						</p>
+						<p class="mb-0">
+							<b>Ranjai Baidya</b>, Heon Jeong
+							<br>
+							Computer Systems Science and Engineering Journal
+						</p>
+					</div>
+					<h3>Select Publications</h3>
+					<div>
+						<p class="lead">
+							<a href="https://www.mdpi.com/1424-8220/22/21/8424" target="_blank">YOLOv5 with ConvMixer Prediction Heads for Precise Object Detection in Drone Imagery</a>
+						</p>
+						<p class="mb-0">
+							<b>Ranjai Baidya</b>, Heon Jeong
+							<br />
+							Sensors 22 (21), 8424
+						</p>
+					</div>
+					<div>
+						<p class="lead">
+							<a href="https://ieeexplore.ieee.org/abstract/document/9077429" target="_blank">Securing Blackhole Attacks in MANETs using Modified Sequence Number in AODV Routing Protocol</a>
+						</p>
+						<p class="mb-0">
+							Sijan Shrestha, <b>Ranjai Baidya</b>, Bivek Giri, Anup Thapa
+							<br>
+							2020 8th International Electrical Engineering Congress (iEECON), 1-4
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-
-
-	<!-- Links Section -->
-	<section id="links" class="container content-section text-center">
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-				<ul class="list-inline banner-social-buttons">
-					<li>
-						<a href="mailto:ranjai123baidya@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
-					</li>
-					<li>
-						<a href="https://scholar.google.com/citations?user=SV8wOvcAAAAJ&hl=en" target="_blank"><ion-icon name="school-outline"></ion-icon></i></a>
-					</li>
-					<li>
-						<a href="https://www.linkedin.com/in/ranjai-baidya-785186179/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
-					</li>
-					<li>
-						<a href="https://github.com/rnjbdya" target="_blank"><ion-icon name="logo-github"></ion-icon></i></a>
-					</li>
-					<li>
-						<a href="https://www.instagram.com/ranjai_baidya/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-					</li>
-					<li>
-						<a href="https://twitter.com/ranjai_baidya" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
-					</li>
+	<!-- Image element - set the background image for the header in the line below-->
+	<div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
+		<!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+		<div style="height: 20rem"></div>
+	</div>
+	<!-- Content section-->
+	<section class="py-5">
+		<div class="container my-5">
+			<div class="row justify-content-center">
+				<div class="col-lg-6">
+					<h2>Engaging Background Images</h2>
+					<p class="lead">The background images used in this template are sourced from Unsplash and are open source and free to use.</p>
+					<p class="mb-0">I can't tell you how many people say they were turned off from science because of a science teacher that completely sucked out all the inspiration and enthusiasm they had for the course.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer-->
+	<footer class="py-5 bg-dark">
+		<div class="container">
+			<p class="m-0 text-center text-white">
+				<ul>
+					<li><a href="https://scholar.google.com/citations?user=SV8wOvcAAAAJ&hl=en" target="_blank"><ion-icon name="school-outline"></ion-icon></i></a></li>
+					<li><a href="https://www.linkedin.com/in/ranjai-baidya-785186179/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+					<li><a href="https://github.com/rnjbdya" target="_blank"><ion-icon name="logo-github"></ion-icon></i></a></li>
+					<li><a href="https://www.instagram.com/ranjai_baidya/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+					<li><a href="https://twitter.com/ranjai_baidya" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
 				</ul>
-			</div>
+			</p>
 		</div>
-	</section>
-
-
+	</footer>
+	<!-- For the link icons-->
 	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+	<!-- Bootstrap core JS-->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Core theme JS-->
+	<script src="js/scripts.js"></script>
 </body>
 </html>
-
